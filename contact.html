@@ -15,13 +15,10 @@
 <body>
 <nav class="nav">
   <div class="container nav-inner">
-    <a href="index.html" class="nav-logo">
-      <img src="logo.svg" alt="Hampton Hires — Never Sacrifice Quality" height="52" style="display:block;">
-    </a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
-      <a href="jobs.html">Open Positions</a>
+      
       <a href="about.html">About</a>
       <a href="contact.html" class="active">Contact</a>
       <a href="contact.html" class="btn btn-emerald nav-cta">Get Started</a>
@@ -74,8 +71,18 @@
         </div>
 
         <div class="form-group">
-          <label for="subject">Subject <span style="color:var(--purple-light);">*</span></label>
-          <input type="text" id="subject" name="subject" placeholder="e.g. Talent placement inquiry" required>
+          <label for="subject">Service of Interest <span style="color:var(--purple-light);">*</span></label>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>Select a service&hellip;</option>
+            <option value="Talent Placement — Standard">Talent Placement — Standard (Entry &amp; Mid-Level)</option>
+            <option value="Talent Placement — Leadership">Talent Placement — Leadership (Manager / Director)</option>
+            <option value="Hiring Process Audit">Hiring Process Audit ($350)</option>
+            <option value="Interview Process Design">Interview Process Design ($400)</option>
+            <option value="HR Document Writing">HR Document Writing</option>
+            <option value="Resume Writing">Resume Writing</option>
+            <option value="Interview Coaching">Interview Coaching</option>
+            <option value="Other / General Inquiry">Other / General Inquiry</option>
+          </select>
         </div>
 
         <div class="form-group">
@@ -133,7 +140,7 @@
 
     <div class="card" style="margin-bottom:20px;">
       <h3 style="color:var(--purple-light);margin-bottom:10px;">How long does a typical search take?</h3>
-      <p>Most searches are completed within 4&ndash;8 weeks depending on the role, market conditions, and client responsiveness during the interview process. We keep you updated throughout so there are no surprises.</p>
+      <p>Most searches are completed within 3&ndash;6 weeks depending on the role, market conditions, and client responsiveness during the interview process. We keep you updated throughout so there are no surprises.</p>
     </div>
 
     <div class="card">
@@ -153,7 +160,7 @@
         <div class="vet-badge" style="margin-top:20px;margin-bottom:0;"><div class="vet-badge-icon">&#9733;</div>Veteran Owned Business</div>
       </div>
       <div><h4>Services</h4><ul><li><a href="services.html">Talent Placement</a></li><li><a href="services.html">Process Consulting</a></li><li><a href="services.html">Document Writing</a></li><li><a href="services.html#candidates">For Job Seekers</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="jobs.html">Open Positions</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li></li><li><a href="contact.html">Contact</a></li></ul></div>
       <div><h4>Contact</h4><ul><li><a href="mailto:brady@hamptonhires.com">brady@hamptonhires.com</a></li><li><a href="contact.html">Send a Message</a></li></ul></div>
     </div>
     <div class="footer-bottom">
