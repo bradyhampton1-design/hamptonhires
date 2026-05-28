@@ -259,7 +259,7 @@ ul { list-style: none; }
   pointer-events: none;
 }
 
-.hero-content { position: relative; max-width: 680px; }
+.hero-content { position: relative; max-width: 680px; margin-left: auto; margin-right: auto; text-align: center; }
 
 .hero h1 {
   font-size: clamp(38px, 6vw, 64px);
@@ -281,13 +281,13 @@ ul { list-style: none; }
   max-width: 520px;
 }
 
-.hero-btns { display: flex; gap: 16px; flex-wrap: wrap; }
+.hero-btns { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
 
 .hero-rule {
   width: 60px;
   height: 3px;
   background: var(--emerald);
-  margin: 0 0 32px;
+  margin: 0 auto 32px;
 }
 
 /* ── CARDS ── */
