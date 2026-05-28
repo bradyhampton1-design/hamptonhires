@@ -1,0 +1,9 @@
+# Non-website files
+style.css
+logo_export.html
+logo_linkedin.png
+Screenshot_20260510_212136_Gallery.jpg
+
+# System files
+.DS_Store
+Thumbs.db

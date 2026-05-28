@@ -1,0 +1,18 @@
+<svg viewBox="-28 -18 294 192" width="294" height="192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background fill — always dark -->
+  <rect x="-22" y="-12" width="282" height="176" rx="10" fill="#2e2e2e"/>
+  <!-- Outer border — deep purple -->
+  <rect x="-22" y="-12" width="282" height="176" rx="10" fill="none" stroke="#5b2c83" stroke-width="1.4"/>
+  <!-- Inner border — muted emerald -->
+  <rect x="-16" y="-6" width="270" height="164" rx="7" fill="none" stroke="#2e8b57" stroke-width="0.6" opacity="0.5"/>
+  <!-- Big shared H — Didot/Bodoni, deep purple -->
+  <text x="16" y="100" font-family="'Didot', 'Bodoni MT', 'Bodoni 72', 'Modern No. 20', serif" font-size="107" font-weight="700" fill="#5b2c83">H</text>
+  <!-- ampton — muted emerald -->
+  <text x="93" y="53" font-family="'Didot', 'Bodoni MT', 'Bodoni 72', 'Modern No. 20', serif" font-size="40" font-weight="700" fill="#2e8b57">ampton</text>
+  <!-- ires — muted emerald -->
+  <text x="93" y="94" font-family="'Didot', 'Bodoni MT', 'Bodoni 72', 'Modern No. 20', serif" font-size="40" font-weight="700" fill="#2e8b57">ires</text>
+  <!-- Rule -->
+  <line x1="16" y1="110" x2="236" y2="110" stroke="#2e8b57" stroke-width="0.8" opacity="0.4"/>
+  <!-- Tagline -->
+  <text x="120" y="130" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="white" text-anchor="middle" letter-spacing="2.8">NEVER SACRIFICE QUALITY</text>
+</svg>

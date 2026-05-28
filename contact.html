@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Hampton Hires</title>
+  <meta name="description" content="Get in touch with Hampton Hires. Whether you have an open role or need HR support, start the conversation here. Response within 1 business day."/>
+  <meta property="og:title" content="Contact | Hampton Hires"/>
+  <meta property="og:description" content="Start a conversation with Hampton Hires. Free initial consultation, no obligation, response within 1 business day."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://hamptonhires.com/contact.html"/>
+  <link rel="icon" type="image/svg+xml" href="logo.svg"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="logo.svg" alt="Hampton Hires — Never Sacrifice Quality" height="52" style="display:block;">
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="jobs.html">Open Positions</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="contact.html" class="btn btn-emerald nav-cta">Get Started</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container text-center">
+    <p class="eyebrow">Get In Touch</p>
+    <h1 class="section-title">Let&rsquo;s Talk</h1>
+    <p class="section-sub">Whether you have an open role, need help with a job description, or want to explore how Hampton Hires can help &mdash; start the conversation here.</p>
+  </div>
+</header>
+
+<!-- FORM + INFO -->
+<section class="section">
+  <div class="container two-col-aside">
+
+    <!-- Left: Form -->
+    <div>
+      <p class="eyebrow">Send a Message</p>
+      <h2 style="font-family:'Playfair Display',serif;font-size:1.7rem;color:var(--purple-light);margin-bottom:8px;">Contact Hampton Hires</h2>
+      <div class="divider left"></div>
+      <form method="POST" action="https://formspree.io/f/mykvllvd" style="margin-top:28px;">
+
+        <div class="form-group">
+          <label for="name">Full Name <span style="color:var(--purple-light);">*</span></label>
+          <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address <span style="color:var(--purple-light);">*</span></label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number <span style="color:var(--text-muted);font-weight:400;">(optional)</span></label>
+          <input type="tel" id="phone" name="phone" placeholder="(612) 555-0100">
+        </div>
+
+        <div class="form-group">
+          <label for="role">I am a&hellip; <span style="color:var(--purple-light);">*</span></label>
+          <select id="role" name="role" required>
+            <option value="" disabled selected>Select one&hellip;</option>
+            <option value="employer">Employer</option>
+            <option value="jobseeker">Job Seeker</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject <span style="color:var(--purple-light);">*</span></label>
+          <input type="text" id="subject" name="subject" placeholder="e.g. Talent placement inquiry" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message <span style="color:var(--purple-light);">*</span></label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell us what you need&hellip;" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-purple" style="width:100%;font-size:1rem;padding:14px;">Send Message</button>
+
+      </form>
+    </div>
+
+    <!-- Right: Info -->
+    <div>
+      <div class="card" style="margin-bottom:24px;">
+        <h3 style="color:var(--purple-light);margin-bottom:16px;">Reach Us Directly</h3>
+        <p style="margin-bottom:8px;color:var(--text-muted);font-size:13px;font-weight:600;letter-spacing:0.5px;">EMAIL</p>
+        <a href="mailto:brady@hamptonhires.com" style="color:var(--emerald);font-weight:600;font-size:1rem;">brady@hamptonhires.com</a>
+      </div>
+
+      <div class="card" style="margin-bottom:24px;">
+        <h3 style="color:var(--purple-light);margin-bottom:16px;">What to Expect</h3>
+        <ul style="padding-left:0;list-style:none;margin:0;">
+          <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:flex-start;gap:10px;"><span style="color:var(--emerald);font-weight:700;margin-top:2px;">&#10003;</span><span>Response within 1 business day</span></li>
+          <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:flex-start;gap:10px;"><span style="color:var(--emerald);font-weight:700;margin-top:2px;">&#10003;</span><span>Initial consultation is always free</span></li>
+          <li style="padding:8px 0;display:flex;align-items:flex-start;gap:10px;"><span style="color:var(--emerald);font-weight:700;margin-top:2px;">&#10003;</span><span>No obligation, no pressure</span></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="vet-badge" style="margin:0;"><div class="vet-badge-icon">&#9733;</div>Veteran Owned Business</div>
+        <p style="font-size:14px;color:var(--text-muted);margin-top:12px;margin-bottom:0;">Hampton Hires is a veteran-owned small business. We hold ourselves to the same standard of accountability we learned in uniform.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section bg-blush">
+  <div class="container" style="max-width:800px;">
+    <p class="eyebrow text-center">FAQ</p>
+    <h2 class="section-title text-center">Common Questions</h2>
+    <div class="divider" style="margin:0 auto 40px;"></div>
+
+    <div class="card" style="margin-bottom:20px;">
+      <h3 style="color:var(--purple-light);margin-bottom:10px;">How does your placement fee work?</h3>
+      <p>Our fee is a percentage of the candidate&rsquo;s first-year base salary, ranging from 13.5% to 18.5% depending on role complexity and seniority. It is contingency-based &mdash; <strong>you pay only when we successfully place a candidate.</strong> There are no upfront costs and no retainer required.</p>
+    </div>
+
+    <div class="card" style="margin-bottom:20px;">
+      <h3 style="color:var(--purple-light);margin-bottom:10px;">Do you work with small businesses?</h3>
+      <p>Yes. In fact, small and mid-size businesses are our primary focus. We understand that you need professional HR support without the overhead of a full internal department. Our model is designed specifically for organizations in that position.</p>
+    </div>
+
+    <div class="card" style="margin-bottom:20px;">
+      <h3 style="color:var(--purple-light);margin-bottom:10px;">How long does a typical search take?</h3>
+      <p>Most searches are completed within 4&ndash;8 weeks depending on the role, market conditions, and client responsiveness during the interview process. We keep you updated throughout so there are no surprises.</p>
+    </div>
+
+    <div class="card">
+      <h3 style="color:var(--purple-light);margin-bottom:10px;">Do you help candidates directly?</h3>
+      <p>Yes. We offer resume writing, interview coaching, and career document services for job seekers. These services are priced separately from employer engagements. <a href="contact.html" style="color:var(--emerald);font-weight:600;">Contact us</a> to discuss your specific needs.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div style="color:white;font-family:'Playfair Display',serif;font-size:20px;font-weight:700;">Hampton<span style="color:var(--purple-light);"> Hires</span></div>
+        <p>Veteran-owned talent placement and HR consulting. Precision, integrity, and proven process in every engagement.</p>
+        <div class="vet-badge" style="margin-top:20px;margin-bottom:0;"><div class="vet-badge-icon">&#9733;</div>Veteran Owned Business</div>
+      </div>
+      <div><h4>Services</h4><ul><li><a href="services.html">Talent Placement</a></li><li><a href="services.html">Process Consulting</a></li><li><a href="services.html">Document Writing</a></li><li><a href="services.html#candidates">For Job Seekers</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="jobs.html">Open Positions</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="mailto:brady@hamptonhires.com">brady@hamptonhires.com</a></li><li><a href="contact.html">Send a Message</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Hampton Hires LLC. All rights reserved.</span>
+      <div class="footer-vet"><span>&#9733;</span><span>Proudly Veteran Owned</span></div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
