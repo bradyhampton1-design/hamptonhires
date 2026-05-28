@@ -4,13 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | Hampton Hires</title>
-  <meta name="description" content="Talent placement, hiring process consulting, and HR document writing for small and mid-size businesses. Veteran-owned, contingency-based, no retainer required."/>
+  <meta name="description" content="Transparent pricing on talent placement, hiring process consulting, and HR document writing. Veteran-owned, contingency-based, no retainer required."/>
   <meta property="og:title" content="Services | Hampton Hires"/>
-  <meta property="og:description" content="Three focused HR services: talent placement, process consulting, and document writing. Veteran-owned, results-driven, no corporate overhead."/>
+  <meta property="og:description" content="Transparent pricing. No retainers. No surprise fees. Veteran-owned HR consulting and talent placement serving Greater Columbus, Ohio and nationwide."/>
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://hamptonhires.com/services.html"/>
   <link rel="icon" type="image/svg+xml" href="logo.svg"/>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .pricing-table { width:100%; border-collapse:collapse; margin-top:20px; }
+    .pricing-table th { background:rgba(91,44,131,0.15); color:var(--purple-light); font-weight:700; padding:10px 14px; text-align:left; font-size:14px; }
+    .pricing-table td { padding:10px 14px; border-bottom:1px solid rgba(255,255,255,0.06); font-size:14px; color:var(--text-muted); vertical-align:top; }
+    .pricing-table tr:last-child td { border-bottom:none; }
+    .pricing-table td:first-child { color:white; font-weight:600; }
+    .pricing-table td strong { color:var(--purple-light); }
+    .tier-card { background:var(--card); border-radius:10px; padding:28px; border:1px solid rgba(255,255,255,0.08); }
+    .tier-card.featured { border-color:var(--purple-light); }
+    .tier-label { font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--purple-light); margin-bottom:8px; min-height:32px; display:flex; flex-direction:column; justify-content:flex-end; }
+    .tier-label.emerald { color:var(--emerald); }
+    .tier-badge { display:inline-block; background:rgba(91,44,131,0.25); color:var(--purple-light); font-size:11px; font-weight:700; padding:3px 10px; border-radius:20px; margin-bottom:6px; }
+    .tier-name { font-family:'Playfair Display',serif; font-size:1.4rem; color:white; margin-bottom:6px; }
+    .tier-price { font-size:2rem; font-weight:700; color:var(--purple-light); line-height:1; margin:12px 0 4px; }
+    .tier-price.emerald { color:var(--emerald); }
+    .tier-sub { font-size:13px; color:var(--text-muted); margin-bottom:16px; }
+    .tier-includes { list-style:none; padding:0; margin:16px 0 0; }
+    .tier-includes li { display:flex; align-items:flex-start; gap:8px; font-size:14px; color:var(--text-muted); padding:5px 0; }
+    .tier-includes li span.check { color:var(--emerald); font-weight:700; flex-shrink:0; }
+    .tier-includes li span.check.purple { color:var(--purple-light); }
+    .two-col-pricing { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:32px; }
+    .three-col-pricing { display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px; margin-top:32px; }
+    @media(max-width:768px) {
+      .two-col-pricing, .three-col-pricing { grid-template-columns:1fr; }
+    }
+    .section-divider { border:none; border-top:1px solid rgba(91,44,131,0.3); margin:0 auto; max-width:900px; }
+    .note-box { background:rgba(91,44,131,0.1); border-left:4px solid var(--purple-light); border-radius:6px; padding:18px 20px; margin-top:32px; font-size:14px; color:var(--text-muted); }
+    .note-box.emerald { background:rgba(46,139,87,0.1); border-color:var(--emerald); }
+    .note-box strong { color:white; }
+  </style>
 </head>
 <body>
 <nav class="nav">
@@ -32,100 +62,324 @@
 <header class="page-header">
   <div class="container text-center">
     <p class="eyebrow">What We Do</p>
-    <h1 class="section-title">Our Services</h1>
-    <p class="section-sub">Three focused service areas. No noise, no filler.</p>
+    <h1 class="section-title">Services &amp; Pricing</h1>
+    <p class="section-sub">Transparent pricing. No retainers. No surprise fees. You pay for results.</p>
   </div>
 </header>
 
-<!-- EMPLOYER SERVICES -->
+<!-- ═══ TALENT PLACEMENT ═══ -->
 <section class="section">
   <div class="container">
-    <p class="eyebrow">For Employers</p>
-    <h2 class="section-title">Employer Services</h2>
+    <h2 class="section-title">Talent Placement</h2>
     <div class="divider left"></div>
-    <p class="section-sub" style="max-width:700px;">Hampton Hires partners with small and mid-size businesses to solve their most pressing people challenges. Whether you need to fill a critical role, tighten your hiring process, or build compliant HR documentation, we deliver professional results without the corporate overhead.</p>
+    <p class="section-sub" style="max-width:700px;">Contingency-based search — you pay nothing until you hire. We source, screen, and deliver qualified candidates so you can focus on running your business.</p>
 
-    <div class="card-grid" style="margin-top:40px;">
+    <div class="two-col-pricing">
 
-      <div class="card">
-        <div class="card-icon">&#128269;</div>
-        <h3>Talent Placement</h3>
-        <p>Contingency-based search covering sourcing, screening, reference checks, and offer negotiation. We send you only candidates worth your time.</p>
-        <p class="pricing-note">
-          <span class="pricing-range">13.5% &mdash; 18.5%</span>
-          <span class="pricing-sub">of first-year base salary</span>
-        </p>
-        <p style="font-size:14px;color:var(--text-muted);margin-top:8px;">Rate scales with role seniority: entry and mid-level roles closer to 13.5%; director and executive-level searches up to 18.5%.</p>
-        <a href="contact.html" style="color:var(--purple-light);font-weight:600;font-size:14px;display:inline-block;margin-top:12px;">Discuss this service &rarr;</a>
+      <div class="tier-card featured">
+        <div class="tier-label">Entry &amp; Mid-Level Roles</div>
+        <div class="tier-name">Standard Placement</div>
+        <div class="tier-price">13.5%</div>
+        <div class="tier-sub">of first-year base salary &mdash; $3,500 minimum</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> Job posting &amp; multi-channel sourcing</li>
+          <li><span class="check purple">&#10003;</span> Resume screening &amp; initial interviews</li>
+          <li><span class="check purple">&#10003;</span> Candidate shortlist (3&ndash;5 vetted finalists)</li>
+          <li><span class="check purple">&#10003;</span> Interview coordination</li>
+          <li><span class="check purple">&#10003;</span> Reference checks</li>
+          <li><span class="check purple">&#10003;</span> Offer letter support &amp; negotiation guidance</li>
+          <li><span class="check purple">&#10003;</span> 30-day replacement guarantee</li>
+        </ul>
       </div>
 
-      <div class="card">
-        <div class="card-icon">&#9881;</div>
-        <h3>Hiring Process Consulting</h3>
-        <p>We audit your current hiring workflow, build structured interview guides and scorecards, define evaluation criteria, and create compliant job postings that attract the right applicants.</p>
-        <p class="pricing-note">
-          <span class="pricing-sub">Priced per project or hourly engagement &mdash; contact us for a quote.</span>
-        </p>
-        <a href="contact.html" style="color:var(--purple-light);font-weight:600;font-size:14px;display:inline-block;margin-top:12px;">Discuss this service &rarr;</a>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">&#128196;</div>
-        <h3>HR Document Writing</h3>
-        <p>Offer letters, job descriptions, employee handbooks, termination templates, onboarding checklists, and interview guides. Professional documents that protect your business and set clear expectations.</p>
-        <p class="pricing-note">
-          <span class="pricing-sub">Priced per document or bundled package &mdash; contact us for a quote.</span>
-        </p>
-        <a href="contact.html" style="color:var(--purple-light);font-weight:600;font-size:14px;display:inline-block;margin-top:12px;">Discuss this service &rarr;</a>
+      <div class="tier-card">
+        <div class="tier-label">Manager, Director &amp; Senior Specialist</div>
+        <div class="tier-name">Leadership Placement</div>
+        <div class="tier-price">18.5%</div>
+        <div class="tier-sub">of first-year base salary</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> Everything in Standard Placement</li>
+          <li><span class="check purple">&#10003;</span> Extended sourcing &amp; passive candidate outreach</li>
+          <li><span class="check purple">&#10003;</span> Deeper candidate vetting &amp; behavioral assessment</li>
+          <li><span class="check purple">&#10003;</span> Compensation benchmarking for the role</li>
+          <li><span class="check purple">&#10003;</span> Negotiation guidance &amp; offer structuring</li>
+          <li><span class="check purple">&#10003;</span> Executive-level search methodology</li>
+          <li><span class="check purple">&#10003;</span> 30-day replacement guarantee</li>
+        </ul>
       </div>
 
     </div>
 
-    <!-- Pricing note block -->
-    <div class="card" style="max-width:680px;margin:48px auto 0;border-left:4px solid var(--purple-light);border-radius:8px;">
-      <p class="eyebrow" style="margin-bottom:8px;color:var(--purple-light);">Placement Fee Structure</p>
-      <p class="pricing-range" style="font-size:2rem;">13.5% &mdash; 18.5%</p>
-      <p style="margin-top:12px;">Placement fees are calculated as a percentage of the candidate&rsquo;s first-year base salary. The rate scales with role complexity, seniority, and scope of search. All fees are contingency-based &mdash; <strong>you pay only upon a successful hire.</strong></p>
+    <div class="note-box">
+      <strong>How contingency works:</strong> You pay nothing upfront. The placement fee is due only upon the candidate&rsquo;s start date. If the hire doesn&rsquo;t work out within 30 days, we&rsquo;ll conduct one replacement search at no additional charge.
     </div>
   </div>
 </section>
 
-<hr style="margin:0 auto;max-width:900px;border:none;border-top:1px solid rgba(91,44,131,0.3);">
+<hr class="section-divider">
 
-<!-- CANDIDATE SERVICES -->
-<section id="candidates" class="section bg-blush">
+<!-- ═══ HIRING PROCESS CONSULTING ═══ -->
+<section class="section bg-blush">
   <div class="container">
-    <p class="eyebrow text-emerald">For Job Seekers</p>
-    <h2 class="section-title">Candidate Services</h2>
-    <div class="divider left emerald"></div>
-    <p class="section-sub" style="max-width:700px;">Hampton Hires advocates for candidates too. We help professionals put their best foot forward &mdash; from the first line of a resume to the final round of interviews.</p>
+    <h2 class="section-title">Hiring Process Consulting</h2>
+    <div class="divider left"></div>
+    <p class="section-sub" style="max-width:700px;">Not every hiring challenge requires a full placement. Sometimes you need a better process, a sharper job post, or an expert eye on what&rsquo;s breaking down. That&rsquo;s what this is for.</p>
 
-    <div class="card-grid" style="margin-top:40px;">
+    <div class="two-col-pricing">
 
-      <div class="card">
-        <div class="card-icon emerald">&#128221;</div>
-        <h3>Resume Writing</h3>
-        <p>Professional, ATS-optimized resumes tailored to your target role and industry. We translate your experience into language that gets you in the room.</p>
-        <a href="contact.html" style="color:var(--emerald);font-weight:600;font-size:14px;display:inline-block;margin-top:12px;">Get started &rarr;</a>
+      <div class="tier-card featured">
+        <div class="tier-label"><span class="tier-badge">Recommended</span>Hiring Process Audit</div>
+        <div class="tier-name">Hiring Process Audit</div>
+        <div class="tier-price">$350</div>
+        <div class="tier-sub">flat fee, includes debrief call</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> Job posting review &amp; rewrite recommendations</li>
+          <li><span class="check purple">&#10003;</span> Screening process evaluation</li>
+          <li><span class="check purple">&#10003;</span> Interview structure review</li>
+          <li><span class="check purple">&#10003;</span> Written findings &amp; action plan</li>
+          <li><span class="check purple">&#10003;</span> 30-minute debrief call included</li>
+        </ul>
       </div>
 
-      <div class="card">
-        <div class="card-icon emerald">&#127908;</div>
-        <h3>Interview Preparation</h3>
-        <p>Role-specific coaching, behavioral interview practice using the STAR method, and honest feedback on your delivery and presentation.</p>
-        <a href="contact.html" style="color:var(--emerald);font-weight:600;font-size:14px;display:inline-block;margin-top:12px;">Get started &rarr;</a>
-      </div>
-
-      <div class="card">
-        <div class="card-icon emerald">&#128190;</div>
-        <h3>Career Document Package</h3>
-        <p>Cover letter, LinkedIn summary, and reference page &mdash; everything you need to land interviews and make a strong impression from the start.</p>
-        <a href="contact.html" style="color:var(--emerald);font-weight:600;font-size:14px;display:inline-block;margin-top:12px;">Get started &rarr;</a>
+      <div class="tier-card">
+        <div class="tier-label">Process Design</div>
+        <div class="tier-name">Interview Process Design</div>
+        <div class="tier-price">$400</div>
+        <div class="tier-sub">flat fee</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> Stage-by-stage interview structure</li>
+          <li><span class="check purple">&#10003;</span> Role-specific question bank</li>
+          <li><span class="check purple">&#10003;</span> Candidate evaluation criteria &amp; scorecard</li>
+          <li><span class="check purple">&#10003;</span> Legal compliance built in</li>
+          <li><span class="check purple">&#10003;</span> Ready to use immediately</li>
+        </ul>
       </div>
 
     </div>
 
-    <p style="text-align:center;margin-top:36px;color:var(--text-muted);font-size:15px;">Candidate services are priced separately from employer engagements. <a href="contact.html" style="color:var(--emerald);font-weight:600;">Contact us</a> for current rates.</p>
+    <div class="note-box" style="margin-top:20px;">
+      <strong>Offer &amp; Compensation Consulting &mdash; $200:</strong> Role-specific salary benchmarking, benefits package review, and offer strategy recommendations before you make or counter an offer. Written summary included.
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- ═══ HR DOCUMENTS ═══ -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">HR Document Writing</h2>
+    <div class="divider left"></div>
+    <p class="section-sub" style="max-width:700px;">Professional HR documents written for your business &mdash; not recycled templates. Delivered as ready-to-use Word documents. Most documents within 48 hours; custom handbooks 3&ndash;5 business days.</p>
+
+    <!-- Best value bundle -->
+    <div class="card" style="border:2px solid var(--purple-light);max-width:680px;margin:32px auto 0;">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;">
+        <div>
+          <p class="eyebrow" style="color:var(--purple-light);margin-bottom:6px;">Best Value</p>
+          <h3 style="font-family:'Playfair Display',serif;font-size:1.4rem;color:white;margin-bottom:6px;">HR Starter Kit</h3>
+          <p style="color:var(--text-muted);font-size:14px;">Everything a growing business needs to hire and onboard with confidence.</p>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:2.2rem;font-weight:700;color:var(--purple-light);line-height:1;">$450</div>
+          <div style="font-size:12px;color:var(--emerald);font-weight:600;">Save $125 vs. individual pricing</div>
+        </div>
+      </div>
+      <ul class="tier-includes" style="margin-top:16px;">
+        <li><span class="check purple">&#10003;</span> Employee handbook (standard)</li>
+        <li><span class="check purple">&#10003;</span> 3 custom job descriptions</li>
+        <li><span class="check purple">&#10003;</span> Onboarding checklist</li>
+        <li><span class="check purple">&#10003;</span> Offer letter template</li>
+      </ul>
+      <a href="contact.html" class="btn btn-emerald" style="margin-top:20px;display:inline-block;">Get the Starter Kit</a>
+    </div>
+
+    <!-- Handbooks -->
+    <h3 style="color:white;font-size:1.1rem;font-weight:700;margin:40px 0 4px;">Employee Handbooks</h3>
+    <div class="three-col-pricing" style="margin-top:16px;">
+      <div class="tier-card">
+        <div class="tier-label">Starter</div>
+        <div class="tier-name">Starter Handbook</div>
+        <div class="tier-price">$150</div>
+        <div class="tier-sub">~15 sections, editable Word doc</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> At-will employment policy</li>
+          <li><span class="check purple">&#10003;</span> PTO &amp; attendance</li>
+          <li><span class="check purple">&#10003;</span> Code of conduct</li>
+          <li><span class="check purple">&#10003;</span> Anti-harassment policy</li>
+        </ul>
+      </div>
+      <div class="tier-card featured">
+        <div class="tier-label">Most Popular</div>
+        <div class="tier-name">Standard Handbook</div>
+        <div class="tier-price">$225</div>
+        <div class="tier-sub">~25 sections, editable Word doc</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> Everything in Starter</li>
+          <li><span class="check purple">&#10003;</span> Benefits &amp; compensation</li>
+          <li><span class="check purple">&#10003;</span> Performance expectations</li>
+          <li><span class="check purple">&#10003;</span> Remote/hybrid work policy</li>
+          <li><span class="check purple">&#10003;</span> Disciplinary procedures</li>
+        </ul>
+      </div>
+      <div class="tier-card">
+        <div class="tier-label">Full Custom</div>
+        <div class="tier-name">Custom Handbook</div>
+        <div class="tier-price">$300</div>
+        <div class="tier-sub">30+ sections, state-specific</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> Everything in Standard</li>
+          <li><span class="check purple">&#10003;</span> State law compliance review</li>
+          <li><span class="check purple">&#10003;</span> Industry-specific policies</li>
+          <li><span class="check purple">&#10003;</span> One round of revisions</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Job Descriptions -->
+    <h3 style="color:white;font-size:1.1rem;font-weight:700;margin:40px 0 4px;">Job Descriptions</h3>
+    <div class="two-col-pricing" style="margin-top:16px;">
+      <div class="tier-card">
+        <div class="tier-label">Single</div>
+        <div class="tier-name">Single Job Description</div>
+        <div class="tier-price">$85</div>
+        <div class="tier-sub">per role, ready to post</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> Role summary &amp; responsibilities</li>
+          <li><span class="check purple">&#10003;</span> Required qualifications</li>
+          <li><span class="check purple">&#10003;</span> Optimized for job boards</li>
+          <li><span class="check purple">&#10003;</span> Legally compliant language</li>
+        </ul>
+      </div>
+      <div class="tier-card featured">
+        <div class="tier-label">Bundle &mdash; Best Rate</div>
+        <div class="tier-name">JD Bundle</div>
+        <div class="tier-price">$200</div>
+        <div class="tier-sub">3-pack &mdash; 5-pack available at $300</div>
+        <ul class="tier-includes">
+          <li><span class="check purple">&#10003;</span> 3 custom job descriptions</li>
+          <li><span class="check purple">&#10003;</span> All roles included</li>
+          <li><span class="check purple">&#10003;</span> Consistent brand voice across all</li>
+          <li><span class="check purple">&#10003;</span> 5-pack available: $300</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Additional documents table -->
+    <h3 style="color:white;font-size:1.1rem;font-weight:700;margin:40px 0 4px;">Additional Documents</h3>
+    <table class="pricing-table" style="margin-top:16px;">
+      <thead>
+        <tr>
+          <th>Document</th>
+          <th>Price</th>
+          <th>What&rsquo;s Included</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Offer Letter Template</td>
+          <td><strong>$75</strong></td>
+          <td>Fully editable, legally compliant offer letter for any role</td>
+        </tr>
+        <tr>
+          <td>Onboarding Package</td>
+          <td><strong>$175</strong></td>
+          <td>Checklist, first-day agenda, and new hire paperwork guide</td>
+        </tr>
+        <tr>
+          <td>Performance Review Templates</td>
+          <td><strong>$150</strong></td>
+          <td>Structured templates with rating scales and written feedback sections</td>
+        </tr>
+        <tr>
+          <td>Termination / Separation Package</td>
+          <td><strong>$150</strong></td>
+          <td>Separation agreement template, checklist, and documentation guidance</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- ═══ CANDIDATE SERVICES ═══ -->
+<section id="candidates" class="section bg-blush">
+  <div class="container">
+    <h2 class="section-title">Candidate Services</h2>
+    <div class="divider left emerald"></div>
+    <p class="section-sub" style="max-width:700px;">Hampton Hires advocates for candidates too. We help professionals put their best foot forward &mdash; from the first line of a resume to the final round of interviews.</p>
+
+    <!-- Resume Writing -->
+    <h3 style="color:var(--emerald);font-size:1rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin:40px 0 16px;">Resume Writing</h3>
+    <div class="tier-card" style="border-color:rgba(46,139,87,0.4);max-width:580px;">
+      <div class="tier-price emerald" style="font-size:1.6rem;margin:0 0 4px;">From $99</div>
+      <div class="tier-sub">ATS-optimized, tailored to your target role and industry</div>
+      <table class="pricing-table" style="margin-top:8px;">
+        <tbody>
+          <tr>
+            <td>Entry-Level</td>
+            <td><strong style="color:var(--emerald);">$99</strong></td>
+          </tr>
+          <tr>
+            <td>Mid-Level</td>
+            <td><strong style="color:var(--emerald);">$125</strong></td>
+          </tr>
+          <tr>
+            <td>Senior / Manager</td>
+            <td><strong style="color:var(--emerald);">$150</strong></td>
+          </tr>
+          <tr>
+            <td>Executive</td>
+            <td><strong style="color:var(--emerald);">$200</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="contact.html" style="color:var(--emerald);font-weight:600;font-size:14px;display:inline-block;margin-top:16px;">Get started &rarr;</a>
+    </div>
+
+    <!-- Interview Coaching -->
+    <h3 style="color:var(--emerald);font-size:1rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin:40px 0 16px;">Interview Coaching</h3>
+    <div class="tier-card" style="border-color:rgba(46,139,87,0.4);max-width:580px;">
+      <div class="tier-price emerald" style="font-size:1.6rem;margin:0 0 4px;">$85 <span style="font-size:1rem;font-weight:400;color:var(--text-muted);">/ hour</span></div>
+      <div class="tier-sub">Role-specific coaching, booked by the hour &mdash; no minimum sessions required</div>
+      <ul class="tier-includes" style="margin-top:8px;">
+        <li><span class="check">&#10003;</span> Behavioral interview practice using the STAR method</li>
+        <li><span class="check">&#10003;</span> Role-specific question preparation</li>
+        <li><span class="check">&#10003;</span> Honest feedback on delivery and presentation</li>
+        <li><span class="check">&#10003;</span> One session often makes a measurable difference</li>
+      </ul>
+      <a href="contact.html" style="color:var(--emerald);font-weight:600;font-size:14px;display:inline-block;margin-top:16px;">Book a session &rarr;</a>
+    </div>
+
+    <!-- Add-on Documents -->
+    <h3 style="color:var(--emerald);font-size:1rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin:40px 0 16px;">Add-on Documents</h3>
+    <div class="tier-card" style="border-color:rgba(46,139,87,0.4);max-width:580px;">
+      <p style="color:var(--text-muted);font-size:14px;margin-bottom:16px;">Add any of the following to your resume order.</p>
+      <table class="pricing-table" style="margin-top:0;">
+        <tbody>
+          <tr>
+            <td>Cover Letter</td>
+            <td><strong style="color:var(--emerald);">$75</strong></td>
+          </tr>
+          <tr>
+            <td>LinkedIn Profile</td>
+            <td><strong style="color:var(--emerald);">$75</strong></td>
+          </tr>
+          <tr>
+            <td>Reference Page</td>
+            <td><strong style="color:var(--emerald);">$50</strong></td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;color:white;">All Three &mdash; Document Bundle</td>
+            <td><strong style="color:var(--emerald);font-size:1.1rem;">$125</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:12px;">Bundle saves $75 vs. individual pricing. Added to your resume order total at checkout.</p>
+      <a href="contact.html" style="color:var(--emerald);font-weight:600;font-size:14px;display:inline-block;margin-top:12px;">Get started &rarr;</a>
+    </div>
+
   </div>
 </section>
 
@@ -146,7 +400,7 @@
         <p>Veteran-owned talent placement and HR consulting. Precision, integrity, and proven process in every engagement.</p>
         <div class="vet-badge" style="margin-top:20px;margin-bottom:0;"><div class="vet-badge-icon">&#9733;</div>Veteran Owned Business</div>
       </div>
-      <div><h4>Services</h4><ul><li><a href="services.html">Talent Placement</a></li><li><a href="services.html">Process Consulting</a></li><li><a href="services.html">Document Writing</a></li><li><a href="services.html#candidates">For Job Seekers</a></li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="services.html">Talent Placement</a></li><li><a href="services.html">Process Consulting</a></li><li><a href="services.html">Document Writing</a></li><li><a href="services.html#candidates">Candidate Services</a></li></ul></div>
       <div><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="jobs.html">Open Positions</a></li><li><a href="contact.html">Contact</a></li></ul></div>
       <div><h4>Contact</h4><ul><li><a href="mailto:brady@hamptonhires.com">brady@hamptonhires.com</a></li><li><a href="contact.html">Send a Message</a></li></ul></div>
     </div>
