@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /logo_export.html
+
+Sitemap: https://hamptonhires.com/sitemap.xml
