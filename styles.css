@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════════
    HAMPTON HIRES — Shared Stylesheet
    Colors (matching logo):
-     Purple   #5b2c83  (primary)
+     Purple   #9061b8  (primary — orchid)
      Emerald  #2e8b57  (secondary / veteran)
      Charcoal #2e2e2e  (main dark background)
      Dark     #252525  (deeper sections)
@@ -14,9 +14,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --purple:        #5b2c83;
-  --purple-dark:   #3d1a5c;
-  --purple-light:  #7a3fb0;
+  --purple:        #9061b8;
+  --purple-dark:   #5f3d7d;
+  --purple-light:  #c4a2e0;
   --emerald:       #2e8b57;
   --emerald-dark:  #1f6340;
   --charcoal:      #2e2e2e;
@@ -27,7 +27,7 @@
   --white:         #ffffff;
   --text:          #f0f0f0;
   --text-muted:    rgba(255,255,255,0.58);
-  --border:        rgba(91,44,131,0.3);
+  --border:        rgba(144,97,184,0.3);
   --radius:        4px;
   --radius-lg:     10px;
   --shadow:        0 4px 24px rgba(0,0,0,0.35);
@@ -113,7 +113,7 @@ ul { list-style: none; }
   background: var(--purple-dark);
   border-color: var(--purple-dark);
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(91,44,131,0.4);
+  box-shadow: 0 6px 20px rgba(144,97,184,0.4);
 }
 
 .btn-emerald {
@@ -302,7 +302,7 @@ ul { list-style: none; }
 
 .card {
   background: var(--charcoal-card);
-  border: 1px solid rgba(91,44,131,0.3);
+  border: 1px solid rgba(144,97,184,0.3);
   border-radius: var(--radius-lg);
   padding: 36px 32px;
   box-shadow: var(--shadow);
@@ -312,7 +312,7 @@ ul { list-style: none; }
 .card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  border-color: rgba(91,44,131,0.55);
+  border-color: rgba(144,97,184,0.55);
 }
 
 .card h3 { font-size: 20px; margin-bottom: 12px; color: var(--white); }
@@ -347,8 +347,8 @@ ul { list-style: none; }
 .stats-bar {
   background: var(--purple-dark);
   padding: 48px 0;
-  border-top: 1px solid rgba(91,44,131,0.4);
-  border-bottom: 1px solid rgba(91,44,131,0.4);
+  border-top: 1px solid rgba(144,97,184,0.4);
+  border-bottom: 1px solid rgba(144,97,184,0.4);
 }
 
 .stats-grid {
@@ -410,7 +410,7 @@ ul { list-style: none; }
 /* ── JOB CARDS ── */
 .job-card {
   background: var(--charcoal-card);
-  border: 1px solid rgba(91,44,131,0.25);
+  border: 1px solid rgba(144,97,184,0.25);
   border-left: 4px solid var(--purple);
   border-radius: var(--radius-lg);
   padding: 28px 32px;
@@ -442,7 +442,7 @@ ul { list-style: none; }
 
 .job-tag {
   display: inline-block;
-  background: rgba(91,44,131,0.2);
+  background: rgba(144,97,184,0.2);
   color: var(--purple-light);
   font-size: 11px;
   font-weight: 600;
@@ -450,7 +450,7 @@ ul { list-style: none; }
   text-transform: uppercase;
   padding: 4px 12px;
   border-radius: 20px;
-  border: 1px solid rgba(91,44,131,0.35);
+  border: 1px solid rgba(144,97,184,0.35);
 }
 
 /* ── FOOTER ── */
@@ -518,7 +518,7 @@ ul { list-style: none; }
   background: linear-gradient(135deg, var(--charcoal-dark) 0%, var(--purple-dark) 100%);
   padding: 72px 0 60px;
   color: var(--white);
-  border-bottom: 1px solid rgba(91,44,131,0.3);
+  border-bottom: 1px solid rgba(144,97,184,0.3);
 }
 
 .page-header h1 { color: var(--white); font-size: clamp(32px,5vw,52px); }
@@ -537,7 +537,7 @@ label {
 input, textarea, select {
   width: 100%;
   padding: 13px 16px;
-  border: 1px solid rgba(91,44,131,0.35);
+  border: 1px solid rgba(144,97,184,0.35);
   border-radius: var(--radius);
   font-family: 'Inter', sans-serif;
   font-size: 15px;
@@ -550,7 +550,7 @@ input::placeholder, textarea::placeholder { color: rgba(255,255,255,0.42); }
 select option { background: var(--charcoal-dark); color: var(--text); }
 input:focus, textarea:focus, select:focus {
   border-color: var(--purple-light);
-  box-shadow: 0 0 0 3px rgba(91,44,131,0.2);
+  box-shadow: 0 0 0 3px rgba(144,97,184,0.2);
 }
 textarea { min-height: 140px; resize: vertical; }
 
